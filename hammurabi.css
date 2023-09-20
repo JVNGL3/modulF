@@ -1,4 +1,5 @@
-#people {
+/* isak franzon 200303040133*/
+/* #people {
 	display: block;
 	padding-left: 0;
 	border: black 1px solid;
@@ -21,15 +22,149 @@
 
 #economy li {
 	margin-bottom: 1px;
-}
+} */
 
-.fieldset {
+/* .fieldset {
 	border-style: none;
-}
+} */
 
 button {
 	margin: 30px 25px 0 0;
 	padding: 10px 15px;
 }
 
+body {
+    background-color: #ffe4b5; /* Light Peach Puff */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark Gray Text Color */
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border: 1px solid #8b4513; /* Saddle Brown */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+h1 {
+    font-size: 48px; /* Increase the font size */
+    text-align: center;
+    margin-bottom: 30px; /* Increase the margin at the bottom */
+    color: #8b4513; /* Saddle Brown */
+    text-transform: uppercase; /* Convert text to uppercase */
+    font-weight: bold; /* Increase the font weight for emphasis */
+    letter-spacing: 2px; /* Add letter spacing for a grander look */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a text shadow for depth */
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #cc6600; /* Dark Orange */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #cc6600; /* Dark Orange */
+    color: #fff; /* White Text Color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #8b4513; /* Saddle Brown */
+}
+
+.centering {
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+
+
+fieldset {
+    border: 1px solid #8b4513; /* Saddle Brown */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+	display: flex;
+	margin: 0 auto;
+	width: 80%;
+	
+}
+
+
+/* Style the container for the image and text */
+.image-text-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically within the container */
+    margin-top: 20px; /* Adjust as needed for spacing */
+}
+
+/* Style the image within the container */
+.image-text-container img {
+    max-width: 25%; /* Adjust the image size as needed */
+    margin-right: 20px; /* Adjust as needed for spacing between image and text */
+}
+
+
+
+/* Style for unordered lists in the beginning */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f4ecdb; /* Light sand color */
+    border: 1px solid #d9cfa0; /* Light brown border */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Style for the list items within ul#people */
+ul#people li {
+    background-color: #f7dc6f; /* Yellowish color for people related items */
+    color: #333; /* Dark text for contrast */
+}
+
+/* Style for the list items within ul#economy */
+ul#economy li {
+    background-color: #f4ecdb; /* Light sand color for economy related items */
+    color: #333; /* Dark text for contrast */
+}
+
+/* Hover effect for list items */
+ul li:hover {
+    background-color: #ffd54f; /* Lighter yellow on hover */
+}
 

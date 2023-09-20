@@ -12,6 +12,7 @@
 
 <body onload="gameStart();">
 	<h1>O Great Hammurabi!</h1>
+<section class="desert-section">
 	<h2 id="year">TEXT-SOM-BYTS-UT-AV-JS-FILEN</h2>
 	<ul id="people">
 		<li id="starved">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
@@ -26,7 +27,7 @@
 		<li id="price">TEXT-SOM-BYTS-UT-AV-JS-FILEN</li>
 	</ul>
 	<form>
-		<fieldset class="fieldset">
+		<fieldset class="desert-fieldset">
 			<legend>Tunnland som ska säljas/köpas: <span id="outputAcrestosellbuy"></span></legend>
 			<input type="button" value="-" id="minusbuttonAcrestosellbuy"
 				onclick="onChangeAcres('minusbuttonAcrestosellbuy');">
@@ -34,14 +35,14 @@
 			<input type="button" value="+" id="plusbuttonAcrestosellbuy"
 				onclick="onChangeAcres('plusbuttonAcrestosellbuy');">
 		</fieldset>
-		<fieldset class="fieldset">
+		<fieldset class="desert-fieldset">
 			<legend>Feed people: <span id="outputFeedpeople"></span></legend>
 			<input type="button" value="-" id="minusbuttonFeedpeople"
 				onclick="onChangeFeeding('minusbuttonFeedpeople');">
 			<input type="range" id="sliderFeedpeople" onchange="onChangeFeeding('sliderFeedpeople');">
 			<input type="button" value="+" id="plusbuttonFeedpeople" onclick="onChangeFeeding('plusbuttonFeedpeople');">
 		</fieldset>
-		<fieldset class="fieldset">
+		<fieldset class="desert-fieldset">
 			<legend>Plantera med utsäde: <span id="outputPlantwithseed"></span></legend>
 			<input type="button" value="-" id="minusbuttonPlantwithseed"
 				onclick="onChangePlanting('minusbuttonPlantwithseed');">
@@ -49,10 +50,14 @@
 			<input type="button" value="+" id="plusbuttonPlantwithseed"
 				onclick="onChangePlanting('plusbuttonPlantwithseed');">
 		</fieldset>
+		<div class="centering">	
 		<button type="button" onclick="gameStart();">Restart</button>
 		<button type="button" onclick="finishTurn();">Det är min order!</button>
 		<button type="button">Help</button>
+		</div>
 	</form>
+	</section>
+
 	<section>
 		<h2>
 			Spelet Hamurabi
@@ -85,14 +90,16 @@
 			erövrande, men efter sin död kommer Hammurabis militära prestationer bli överskuggade 
 			av Hammurabis 282 lagar.
 			</p>
-				<img src="codeOfHammurabi.JPG" width="25%" alt="Stelen med Hammurabis lagar">
-			<p>
-			Under sin tid som kung instiftade Hammurabi 282 lagar. Dessa som var speciellt med just
-			dessa lagar vara att lagarna fokuserar på de fysiska straffen till olika brott. Detta
-			skiljde sig mycket från andra lagar runt om i världen som istället hade ett fokus på 
-			hur brottsoffret skulle kompenseras. "Tand för tand" och "öga för öga" kommer bland 
-			annat från dessa lagar. 
-			</p> 
+				<div class="image-text-container">	
+					<img src="codeOfHammurabi.JPG" width="25%" alt="Stelen med Hammurabis lagar">
+					<p>
+					Under sin tid som kung instiftade Hammurabi 282 lagar. Dessa som var speciellt med just
+					dessa lagar vara att lagarna fokuserar på de fysiska straffen till olika brott. Detta
+					skiljde sig mycket från andra lagar runt om i världen som istället hade ett fokus på 
+					hur brottsoffret skulle kompenseras. "Tand för tand" och "öga för öga" kommer bland 
+					annat från dessa lagar. 
+					</p> 
+				</div>
 	</section>
 
 
