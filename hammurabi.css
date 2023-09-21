@@ -48,12 +48,14 @@ img {
 }
 
 section {
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
     background-color: #fff; /* White background */
     border: 1px solid #8b4513; /* Saddle Brown */
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    max-width: 900px;
+    
 }
 
 h1 {
@@ -103,6 +105,7 @@ button:hover {
 text-align: center;
 display: flex;
 justify-content: center;
+
 }
 
 
@@ -122,17 +125,23 @@ fieldset {
 
 /* Style the container for the image and text */
 .image-text-container {
-    display: flex; /* Use flexbox to align items horizontally */
+    display:flex; /* Use flexbox to align items horizontally */
     align-items: center; /* Center items vertically within the container */
     margin-top: 20px; /* Adjust as needed for spacing */
+    
 }
 
 /* Style the image within the container */
 .image-text-container img {
     max-width: 25%; /* Adjust the image size as needed */
     margin-right: 20px; /* Adjust as needed for spacing between image and text */
+    
 }
 
+.image-text-container p {
+    max-width: 600px;
+
+}
 
 
 /* Style for unordered lists in the beginning */
