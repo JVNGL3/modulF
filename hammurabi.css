@@ -1,32 +1,4 @@
 /* isak franzon 200303040133*/
-/* #people {
-	display: block;
-	padding-left: 0;
-	border: black 1px solid;
-	list-style: none;
-}
-
-#people li {
-	display: inline;
-	margin-right: 10px;
-	border: black 1px solid;
-}
-
-#economy {
-	display: block;
-	padding-left: 10;
-	border: black 1px solid;
-	list-style: none;
-	margin: 20px;
-}
-
-#economy li {
-	margin-bottom: 1px;
-} */
-
-/* .fieldset {
-	border-style: none;
-} */
 
 button {
 	margin: 30px 25px 0 0;
@@ -34,39 +6,41 @@ button {
 }
 
 body {
-    background-color: #ffe4b5; /* Light Peach Puff */
+    background-color: #ffe4b5; 
     font-family: 'Arial', sans-serif;
-    color: #333; /* Dark Gray Text Color */
+    color: #333; 
 }
-
 
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    border-radius: 5px; /*rundar hörnen på bilden*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    /*Ger en skugg effekt*/
 }
 
 section {
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff; /* White background */
-    border: 1px solid #8b4513; /* Saddle Brown */
+    background-color: #fff; 
+    border: 1px solid #8b4513;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    /*Ger en skugg effekt*/
     max-width: 900px;
-    
+    /*Gör så att texten inte stretchar för evigt*/
 }
 
 h1 {
-    font-size: 48px; /* Increase the font size */
+    font-size: 48px; 
     text-align: center;
-    margin-bottom: 30px; /* Increase the margin at the bottom */
-    color: #8b4513; /* Saddle Brown */
-    text-transform: uppercase; /* Convert text to uppercase */
-    font-weight: bold; /* Increase the font weight for emphasis */
-    letter-spacing: 2px; /* Add letter spacing for a grander look */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a text shadow for depth */
+    margin-bottom: 30px; 
+    color: #8b4513; 
+    text-transform: uppercase; 
+    font-weight: bold; /* Ökar "weight" gör texten fet-stil*/
+    letter-spacing: 2px; /*lägger til mellanrum mellan karaktärer*/
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    /* Gör så att texten får en skugg effekt*/
 }
 
 
@@ -77,7 +51,7 @@ p {
 }
 
 a {
-    color: #cc6600; /* Dark Orange */
+    color: #cc6600;
     text-decoration: none;
 }
 
@@ -87,28 +61,33 @@ a:hover {
 
 button {
     padding: 10px 20px;
-    background-color: #cc6600; /* Dark Orange */
-    color: #fff; /* White Text Color */
+    /*Lägger till 10 över & under, 20 höger vänster*/
+    background-color: #cc6600; 
+    color: #fff; 
     border: none;
+    /* Tar bort default border */
     border-radius: 5px;
     cursor: pointer;
-    text-decoration: none;
+    /* Ändrar muspekaren till en hand */
     transition: background-color 0.3s;
+    /* ger en "smooth" övergång till mörkare färg
+    då musen är på knappen */
     margin-right: 10px;
 }
 
 button:hover {
-    background-color: #8b4513; /* Saddle Brown */
+    background-color: #8b4513;
+    /* mörkare färg till knappen */
 }
 
 .centering {
 text-align: center;
 display: flex;
 justify-content: center;
+/*Gör så att alla som tillhör klassen är
+centrerade horisontellt*/
 
 }
-
-
 
 fieldset {
     border: 1px solid #8b4513; /* Saddle Brown */
@@ -117,63 +96,62 @@ fieldset {
     border-radius: 5px;
     background-color: #fff; /* White background */
 	display: flex;
+    /* Använder en flexbox */
 	margin: 0 auto;
 	width: 80%;
 	
 }
 
-
-/* Style the container for the image and text */
 .image-text-container {
-    display:flex; /* Use flexbox to align items horizontally */
-    align-items: center; /* Center items vertically within the container */
-    margin-top: 20px; /* Adjust as needed for spacing */
+    display:flex;
+     /* Använder en flexbox  */
+    align-items: center; 
+    /* centrerar saker vertikalt inom klassen*/
+    margin-top: 20px; 
     
 }
 
-/* Style the image within the container */
 .image-text-container img {
-    max-width: 25%; /* Adjust the image size as needed */
-    margin-right: 20px; /* Adjust as needed for spacing between image and text */
+    /* Justerar bilden inom klassen */
+    max-width: 25%; 
+    margin-right: 20px; 
     
 }
 
 .image-text-container p {
+    /* Justerar bredden av texten */
     max-width: 600px;
 
 }
 
-
-/* Style for unordered lists in the beginning */
 ul {
     list-style-type: none;
+    /* tar bort defalut utseendet av en ul med punkter */
     padding: 0;
 }
 
 ul li {
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #f4ecdb; /* Light sand color */
-    border: 1px solid #d9cfa0; /* Light brown border */
+    background-color: #f4ecdb; 
+    border: 1px solid #d9cfa0; 
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    transition: background-color 0.3s ease; /* Smooth color transition */
+    /* rundar hörn */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    /* ger en skugg effekt */
 }
 
-/* Style for the list items within ul#people */
+
 ul#people li {
-    background-color: #f7dc6f; /* Yellowish color for people related items */
-    color: #333; /* Dark text for contrast */
+    /* för de som tillhör en lista med id: people */
+    background-color: #f7dc6f; 
+    color: #333;
 }
 
 /* Style for the list items within ul#economy */
 ul#economy li {
-    background-color: #f4ecdb; /* Light sand color for economy related items */
-    color: #333; /* Dark text for contrast */
-}
-
-/* Hover effect for list items */
-ul li:hover {
-    background-color: #ffd54f; /* Lighter yellow on hover */
+    /* för de som tillhör en lista med id: economy */
+    background-color: #f4ecdb; 
+    color: #333;
 }
 
